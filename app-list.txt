@@ -1,0 +1,235 @@
+# Calculator app
+com.android.calculator2
+
+# Calendar app
+com.android.calendar
+
+# Backs up call logs from Stock Phone App. Not necessry for other phone apps
+com.android.calllogbackup
+
+# Contacts and Phone app
+com.android.contacts
+
+# Clock app
+com.android.deskclock
+
+# Mail app
+com.android.email
+
+# Gallery app
+com.android.gallery3d
+
+# EMUI Music App 
+com.android.mediacenter
+
+# Sound Recorder
+com.android.soundrecorder
+
+# Necessary to sync stock Calendar app and let it work correctly
+com.android.providers.calendar
+
+# Notepad app
+com.example.android.notepad
+
+# Google Messages
+com.google.android.apps.messaging
+
+# Radio
+com.huawei.android.FMRadio
+
+# Amazon app related (Mobile Device Information Provider)
+com.amazon.appmanage
+
+# Amazon app 
+com.amazon.mShop.android.shopping
+
+# Chrome bookmarks related
+com.android.bookmarkprovider
+
+# Chrome bookmarks related
+com.android.providers.partnerbookmarks
+
+# Chrome
+com.android.chrome
+
+# Live wallpapers
+com.android.dreams.basic
+com.android.dreams.phototable
+
+# HTML Viewer
+com.android.htmlviewer
+
+# Party Mode
+com.android.imedia.syncplay
+
+# Work Profile Setup
+com.android.managedprovisioning
+
+# Unnecessary, dependant on carrier
+com.android.partnerbrowsercustomizations.tmobile
+
+# SIM Toolkit
+com.android.stk
+
+# Live wallpaper picker
+com.android.wallpaper.livepicker
+
+# Wallpaper cropper
+com.android.wallpapercropper
+
+# Booking.com app
+com.booking
+
+# Google Drive
+com.google.android.apps.docs
+
+# Google Docs
+com.google.android.apps.docs.editors.docs
+
+# Google Sheets
+com.google.android.apps.docs.editors.sheets
+
+# Google Slides
+com.google.android.apps.docs.editors.slides
+
+# Google Maps
+com.google.android.apps.maps
+
+# Google Photos
+com.google.android.apps.photos
+
+# App restore option from Google account (Setup Wizard). Can be deleted after first setup. 
+com.google.android.apps.restore
+
+# Google Duo
+com.google.android.apps.tachyon
+
+# Google Wellbeing
+com.google.android.apps.wellbeing
+
+# Initial Google Configurator
+com.google.android.apps.work.oobconfig
+
+# Youtube Music
+com.google.android.apps.youtube.music
+
+# When an app crashes, this is the app that briefly asks you if you want to feedback the crash on the market, Google Play Store.
+com.google.android.feedback
+
+# Gmail
+com.google.android.gm
+
+# Google Search
+com.google.android.googlequicksearchbox
+
+# Adds some features about accessibility settings
+# com.google.android.marvin.talkback
+
+# Provides first time setup, safe to remove.
+com.google.android.onetimeinitializer
+
+# About printing but not necessary
+com.google.android.printservice.recommendation
+
+# Setup Wizard
+com.google.android.setupwizard
+
+# Text-to-speech
+# com.google.android.tts
+
+# Play Movies and TV
+com.google.android.videos
+
+# YouTube
+com.google.android.youtube
+
+# Clone data from one phone to another
+com.hicloud.android.clone
+
+# For taking long screenshots
+com.huawei.HwMultiScreenShot
+
+# Huawei Backup
+com.huawei.KoBackup
+
+
+# HwChrService
+com.huawei.android.chr
+
+# Huawei Services Framework
+com.huawei.android.hsf
+
+# Huawei Launcher (Install a launcher before deleteing it)
+com.huawei.android.launcher
+
+# Theme Manager
+com.huawei.android.thememanager
+
+# Huawei Phone Tips
+com.huawei.android.tips
+
+# Weather app
+com.huawei.android.totemweather
+
+# Wifi direct (but looks like wifi direct still works after deleting it)
+com.huawei.android.wfdft
+
+# Huawei AppGallery
+com.huawei.appmarket
+
+# Transfer contacts by bluetooth
+com.huawei.bluetooth
+
+# Stock camera app (maybe use Open Camera instead)
+com.huawei.camera
+
+# Stock contacts app contacts synchronizer
+com.huawei.contacts.sync
+
+# Huawei Maps related
+com.huawei.featurelayer.sharedfeature.map
+
+# Game Assistant
+com.huawei.gameassistant
+
+# Huawei Cloud
+com.huawei.hicloud
+
+# Huawei Files
+com.huawei.hidisk
+
+# Huawei AppAdvisor
+com.huawei.hifolder
+
+# Stock video app
+com.huawei.himovie.overseas
+
+# Displays the details of a photo after taking it with the stock camera
+com.huawei.hiview
+
+# Huawei Smart Diagnosis
+com.huawei.hwdetectrepair
+
+# Huawei ID
+com.huawei.hwid
+
+# App Prioritizer
+com.huawei.iaware
+
+# Language Downloader
+com.huawei.languagedownloader
+
+# HiCare
+com.huawei.phoneservice
+
+# Built-in screen recorder
+com.huawei.screenrecorder
+
+# Intelligent unlock feature (used with other Huawei devices, Android Smart Lock still works)
+com.huawei.trustagent
+
+# Swiftkey related
+com.swiftkey.swiftkeyconfigurator
+
+# Swiftkey
+com.touchtype.swiftkey
