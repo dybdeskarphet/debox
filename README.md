@@ -48,7 +48,7 @@ I made this list by a little bit of research for every package that mentioned in
 
 But also eliminated some programs from their list because some of the programs there were important (or can be important) for system services. Also, lines starting with `#` are comments. (wow, really?)
 
-If you want to contribute to the project with your own phone's _app-list.txt_, feel free to [create an issue](https://github.com/dybdeskarphet/debox/new) about it.
+If you want to contribute to the project with your own phone's _app-list.txt_, feel free to [create an issue](https://github.com/dybdeskarphet/debox/issues/new) about it.
 
 # Issues
 - Somehow ringtone picker doesn't work. I'll try to find what causes this but in that time, use this [Ringtone Picker](https://github.com/DeweyReed/UltimateRingtonePicker)
