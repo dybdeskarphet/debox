@@ -33,7 +33,7 @@ Debox is an extreme debloating\* script for your __unrooted__ Huawei Y6 2019 pho
   - Basically needed for uninstalling apps and for other necessary commands.
 
 ## How To Install Dependencies
-For Debian-based distros (Ubunut, Mint, Pop!\_OS etc.) Run:
+For Debian-based distros (Ubuntu, Mint, Pop!\_OS etc.) Run:
 `apt install android-platform-system-core wget`
 
 For Arch-based distros (Arch, Manjaro, Artix etc.) Run:
