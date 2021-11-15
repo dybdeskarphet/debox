@@ -4,7 +4,7 @@
    * [Dependencies](#dependencies)
    * [app-list.txt](#app-list.txt)
    * [Some Issues](#some-issues)
-   * [Which should I install after this](#what-should-i-install-after-this)
+   * [What should I install after this](#what-should-i-install-after-this)
    * [Could I run it on Windows?](#could-i-run-it-on-windows)
      * [How To Install Dependencies](#how-to-install-dependencies)
    * [Which apps are getting deleted](https://github.com/debox/blob/main/app-list.txt)
