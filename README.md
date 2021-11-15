@@ -12,6 +12,7 @@
 <!--te-->
 
 # Debox
+![screenshot](https://user-images.githubusercontent.com/42360077/141742797-cc913473-a9eb-42bf-a4f7-7ded45e226d3.png)
 Debox is an extreme debloating\* script for your __unrooted__ Huawei Y6 2019 phone. But you can still use it on your device by changing the app-list.txt
 
 \*: Not that all the apps in _app-list.txt_ are bloat, I just use it as its popular usage in \*nix world.
