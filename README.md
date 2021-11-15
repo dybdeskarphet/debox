@@ -2,7 +2,7 @@
 <!--ts-->
    * [Usage](#usage)
    * [Dependencies](#dependencies)
-   * [app-list.txt](#app-list.txt)
+   * [app-list.txt](#app-listtxt)
    * [Issues](#issues)
    * [What should I install after this](#what-should-i-install-after-this)
    * [Could I run it on Windows?](#could-i-run-it-on-windows)
