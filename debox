@@ -20,6 +20,7 @@ delete_apps() {
 	  exit 127
 	else
 	  printf '%b\n' "\e[1;31m[x] \e[0mCouldn't delete \e[1m$app."
+	  exit 1
 	fi 
   done
 }
@@ -43,8 +44,10 @@ install_fdroid() {
     printf '%b\n\n' "\e[1;32m[+] \e[39mInstalled F-Droid successfully."
   elif [[ "$(command -v adb)" = "" ]]; then
     printf '%b\n\n' "\e[1;31m[?] \e[39mAndroid platform tools are not installed on your system."
+    exit 127
   else
     printf '%b\n\n' "\e[1;31m[x] \e[39mCouldn't install F-Droid."
+    exit 1
   fi
 }
 
@@ -58,8 +61,10 @@ send_input() {
     printf '%b\n\n' "\e[1;32m[+] \e[39mDone."
   elif [[ "$(command -v adb)" = "" ]]; then
     printf '%b\n\n' "\e[1;31m[?] \e[39mAndroid platform tools are not installed on your system."
+    exit 127
   else
     printf '%b\n\n' "\e[1;31m[x] \e[39mCouldn't send an input."
+    exit 1
   fi
 }
 
@@ -69,11 +74,13 @@ start_app() {
     printf '%b\n' "\e[0mTry these:"
     printf '%b\n' "\e[1m./debox -s com.android.vending\e[0m (starts play store)"
     printf '%b\n\n' "\e[1m./debox -s org.fdroid.fdroid\e[0m (starts f-droid)"
+    exit 1
   elif adb shell monkey -p "$second_input" -v 1
   then
     :
   elif [[ "$(command -v adb)" = "" ]]; then
     printf '%b\n\n' "\e[1;31m[?] \e[39mAndroid platform tools are not installed on your system."
+    exit 127
   fi
 }
 
