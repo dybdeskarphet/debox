@@ -92,13 +92,13 @@ It's just 100 lines of code. :P
    * [Sorunlar](#sorunlar)
    * [Sonrasında Neleri İndirmeliyim](#sonras%C4%B1nda-neleri-%C4%B0ndirmeliyim)
    * [Windows'ta çalıştırabilir miyim?](#windowsta-%C3%A7al%C4%B1%C5%9Ft%C4%B1rabilir-miyim)
-   * [Hangi uygulamalar siliniyor](https://github.com/debox/blob/main/app-list.txt)
+   * [Hangi uygulamalar siliniyor?](https://github.com/debox/blob/main/app-list.txt)
    * [Lisans](#lisans)
 <!--te-->
 
 # Debox Nedir?
 ![screenshot](https://user-images.githubusercontent.com/42360077/141742797-cc913473-a9eb-42bf-a4f7-7ded45e226d3.png)
-Debox, Huawei Y6 2019 telefonunuz için, sistem uygulamalarını ve bazı gereksiz\* uygulamaları __root yetkisi istemeden__ silebilen bir bash betiğidir. Ayrıca app-list.txt'yi değiştirerek kendi cihazınızda da kullanabilirsin.
+Debox, Huawei Y6 2019 telefonunuz için, sistem uygulamalarını ve bazı gereksiz\* uygulamaları __root yetkisi istemeden__ silebilen bir bash betiğidir. Ayrıca app-list.txt'yi değiştirerek kendi cihazınızda da kullanabilirsiniz.
 
 \*: Bence...
 
@@ -117,7 +117,7 @@ Debox, Huawei Y6 2019 telefonunuz için, sistem uygulamalarını ve bazı gereks
 - wget
   - F-Droid'i indirebilmek için 
 - adb [android-tools]
-  - Uygulamaları silmek ve bazı gerekli komutlar çalıştırmak için gerekli olan en temel araç.
+  - Uygulamaları silmek ve bazı gerekli komutları çalıştırmak için gerekli olan en temel araç.
 
 ## Bağlılıkları nasıl indirebilirim?
 Debian temelli dağıtımlar için (Ubuntu, Mint, Pop!\_OS etc.) bu komutu çalıştırın:
