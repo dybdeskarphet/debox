@@ -2,12 +2,12 @@
 <!--ts-->
    * [Usage](#usage)
    * [Dependencies](#dependencies)
-     * [How To Install Dependencies](#how-to-install-dependencies)
+     * [How to install dependencies?](#how-to-install-dependencies)
    * [app-list.txt](#app-listtxt)
    * [Issues](#issues)
-   * [What should I install after this](#what-should-i-install-after-this)
+   * [What should I install after this?](#what-should-i-install-after-this)
    * [Could I run it on Windows?](#could-i-run-it-on-windows)
-   * [Which apps are getting deleted](https://github.com/debox/blob/main/app-list.txt)
+   * [Which apps are getting deleted?](https://github.com/debox/blob/main/app-list.txt)
    * [License](#license)
    * [Türkçe](#konu-ba%C5%9Fl%C4%B1klar%C4%B1)
 <!--te-->
@@ -33,7 +33,7 @@ Debox is an extreme debloating\* script for your __unrooted__ Huawei Y6 2019 pho
 - adb [android-tools]
   - Basically needed for uninstalling apps and for other necessary commands.
 
-## How To Install Dependencies
+## How to install dependencies?
 For Debian-based distros (Ubuntu, Mint, Pop!\_OS etc.) Run:
 `apt install android-platform-system-core wget`
 
@@ -55,7 +55,7 @@ If you want to contribute to the project with your own phone's _app-list.txt_, f
 # Issues
 - Somehow ringtone picker doesn't work and none of the apps in app-list.txt looks suspicious. I'll try to find what causes this but in that time, use this [Ringtone Picker](https://github.com/DeweyReed/UltimateRingtonePicker)
 
-# What Should I Install After This?
+# What should I install after this?
 - **Launcher:** [KISS Launcher](https://f-droid.org/en/packages/fr.neamar.kiss/) ([Play Store](https://play.google.com/store/apps/details?id=fr.neamar.kiss&hl=tr&gl=US)), [Lawnchair 2](https://play.google.com/store/apps/details?id=ch.deletescape.lawnchair.plah&hl=tr&gl=US), [Lawnchair 11 (It's on alpha relase but you can still try it if you want something experimental)](https://github.com/LawnchairLauncher/lawnchair/releases)
 - **Phone:** [Google Phone](https://play.google.com/store/apps/details?id=com.google.android.dialer&hl=tr&gl=US), [Simple Dialer](https://f-droid.org/en/packages/com.simplemobiletools.dialer/)
 - **Message:** [Google Messages](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging&hl=tr&gl=US), [Simple SMS Messenger](https://f-droid.org/en/packages/com.simplemobiletools.smsmessenger/)
@@ -87,10 +87,10 @@ It's just 100 lines of code. :P
    * [Debox Nedir?](#debox-nedir)
    * [Kullanımı](#kullan%C4%B1m%C4%B1)
    * [Bağlılıklar](#ba%C4%9Fl%C4%B1l%C4%B1klar)
-     * [Bağlılıkları Nasıl İndirebilirim?](https://github.com/dybdeskarphet/debox#ba%C4%9Fl%C4%B1l%C4%B1klar%C4%B1-nas%C4%B1l-indirebilirim)
+     * [Bağlılıkları nasıl indirebilirim?](https://github.com/dybdeskarphet/debox#ba%C4%9Fl%C4%B1l%C4%B1klar%C4%B1-nas%C4%B1l-indirebilirim)
    * [app-list.txt](#app-listtxt-nedir)
    * [Sorunlar](#sorunlar)
-   * [Sonrasında Neleri İndirmeliyim](#sonras%C4%B1nda-neleri-%C4%B0ndirmeliyim)
+   * [Sonrasında neleri indirmeliyim?](#sonras%C4%B1nda-neleri-%C4%B0ndirmeliyim)
    * [Windows'ta çalıştırabilir miyim?](#windowsta-%C3%A7al%C4%B1%C5%9Ft%C4%B1rabilir-miyim)
    * [Hangi uygulamalar siliniyor?](https://github.com/debox/blob/main/app-list.txt)
    * [Lisans](#lisans)
@@ -141,7 +141,7 @@ Eğer projeye kendi telefonunuzun _app-list.txt_'si ile katkıda bulunmak istiyo
 # Sorunlar
 - Sebebini anlamadığım bir şekilde zil sesi seçme menüleri çalışmıyor ve app-list.txt'deki hiçbir uygulama da şüphe uyandırmıyor. Çözüm bulmaya çalışacağım ancak o zamana kadar bu uygulamayı kullanabilirsiniz: [Ringtone Picker](https://github.com/DeweyReed/UltimateRingtonePicker)
 
-# Sonrasında Neleri İndirmeliyim?
+# Sonrasında neleri indirmeliyim?
 - **Başlatıcı (Launcher):** [KISS Launcher](https://f-droid.org/en/packages/fr.neamar.kiss/) ([Play Store](https://play.google.com/store/apps/details?id=fr.neamar.kiss&hl=tr&gl=US)), [Lawnchair 2](https://play.google.com/store/apps/details?id=ch.deletescape.lawnchair.plah&hl=tr&gl=US), [Lawnchair 11 (alfa sürümünde ama deneysel bir şey istoyrsanız deneyebilirsiniz)](https://github.com/LawnchairLauncher/lawnchair/releases)
 - **Telefon:** [Google Telefon](https://play.google.com/store/apps/details?id=com.google.android.dialer&hl=tr&gl=US), [Basit Telefon](https://f-droid.org/en/packages/com.simplemobiletools.dialer/)
 - **Mesajlar:** [Google Mesajlar](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging&hl=tr&gl=US), [Simple SMS Messenger](https://f-droid.org/en/packages/com.simplemobiletools.smsmessenger/)
