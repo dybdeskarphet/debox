@@ -87,7 +87,7 @@ It's just 100 lines of code. :P
    * [Debox Nedir?](#debox-nedir)
    * [Kullanımı](#kullan%C4%B1m%C4%B1)
    * [Bağlılıklar](#ba%C4%9Fl%C4%B1l%C4%B1klar)
-     * [Bağlılıkları Nasıl İndirebilirim?](ba%C4%9Fl%C4%B1l%C4%B1klar%C4%B1-nas%C4%B1l-%C4%B0ndirebilirim)
+     * [Bağlılıkları Nasıl İndirebilirim?](ba%C4%9Fl%C4%B1l%C4%B1klar%C4%B1-nas%C4%B1l-indirebilirim)
    * [app-list.txt](#app-listtxt-nedir)
    * [Sorunlar](#sorunlar)
    * [Sonrasında Neleri İndirmeliyim](#sonras%C4%B1nda-neleri-%C4%B0ndirmeliyim)
