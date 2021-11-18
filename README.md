@@ -8,7 +8,6 @@
    * [What should I install after this?](#what-should-i-install-after-this)
    * [Could I run it on Windows?](#could-i-run-it-on-windows)
    * [Which apps are getting deleted?](https://github.com/debox/blob/main/app-list.txt)
-   * [License](#license)
    * [Türkçe](#konu-ba%C5%9Fl%C4%B1klar%C4%B1)
 <!--te-->
 
@@ -77,9 +76,6 @@ Also, here are two lists of FOSS software
 # Could I run it on Windows?
 No, and yes, but actually no. You can use Linux emulators like [Ubuntu's](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6), [Kali Linux's](https://www.microsoft.com/en-us/p/kali-linux/9pkr34tncv07) and make it work. I tried to make a Windows script before but I also had to add the dependencies with the script and I think it's just a messy way to handle the situation.
 
-# License
-It's just 100 lines of code. :P
-
 ---
 
 # Konu Başlıkları
@@ -93,7 +89,6 @@ It's just 100 lines of code. :P
    * [Sonrasında neleri indirmeliyim?](#sonras%C4%B1nda-neleri-%C4%B0ndirmeliyim)
    * [Windows'ta çalıştırabilir miyim?](#windowsta-%C3%A7al%C4%B1%C5%9Ft%C4%B1rabilir-miyim)
    * [Hangi uygulamalar siliniyor?](https://github.com/debox/blob/main/app-list.txt)
-   * [Lisans](#lisans)
 <!--te-->
 
 # Debox Nedir?
@@ -162,6 +157,3 @@ Ayrıca bulduğum iki adet FOSS listesi:
 
 # Windows'ta çalıştırabilir miyim?
 Hayır, ve evet, ama aslında hayır. [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)'nunki ve [Kali Linux](https://www.microsoft.com/en-us/p/kali-linux/9pkr34tncv07)'unki gibi Linux emülatörleri kullanabilir ve çalışmasını sağlayabilirsiniz. Windows betiği yapmaya çalışmıştım ama tüm bağlılıkları da betik ile beraber eklemem gerekiyordu. Ve bence bu yol, soruna çözüm bulmak için oldukça pasaklı bir yol.
-
-# Lisans
-100 satırlık kodun lisansı mı olur? :P
