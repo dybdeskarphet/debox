@@ -19,7 +19,7 @@ Debox is an extreme debloating\* script for your __unrooted__ Huawei Y6 2019 pho
 
 # Usage
 1. Don't forget to check the _app-list.txt_ because these are the apps that are going to be uninstalled.
-2. Open your terminal and clone the repository: `git clone https https://github.com/dybdeskarphet/debox.git`
+2. Open your terminal and clone the repository: `git clone https://github.com/dybdeskarphet/debox.git`
 3. Open your terminal in the `debox` directory.
 3. Run `chmod +x debox` to make it executable.
 4. Run `./debox -h`.
@@ -99,7 +99,7 @@ Debox, Huawei Y6 2019 telefonunuz için, sistem uygulamalarını ve bazı gereks
 
 # Kullanımı
 1. Öncelikle app-list.txt'ye göz atmayı unutmayın çünkü silinecek uygulamaların listesi orada bulunuyor. 
-2. Uçbirim\* ekranı açıp depoyu kopyalayın: `git clone https https://github.com/dybdeskarphet/debox.git`
+2. Uçbirim\* ekranı açıp depoyu kopyalayın: `git clone https://github.com/dybdeskarphet/debox.git`
 3. Kopyaladığınız `debox` klasörü içinde uçbirim açın.
 3. `chmod +x debox` komutu ile betiği çalıştırılabilir yapın.
 4. `./debox -h` yazın.
