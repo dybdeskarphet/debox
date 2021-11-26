@@ -157,5 +157,3 @@ Ayrıca bulduğum iki adet FOSS listesi:
 
 # Windows'ta çalıştırabilir miyim?
 Hayır, ve evet, ama aslında hayır. [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)'nunki ve [Kali Linux](https://www.microsoft.com/en-us/p/kali-linux/9pkr34tncv07)'unki gibi Linux emülatörleri kullanabilir ve çalışmasını sağlayabilirsiniz. Windows betiği yapmaya çalışmıştım ama tüm bağlılıkları da betik ile beraber eklemem gerekiyordu. Ve bence bu yol, soruna çözüm bulmak için oldukça pasaklı bir yol.
-
-test
