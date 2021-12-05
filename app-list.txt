@@ -152,14 +152,13 @@ com.huawei.HwMultiScreenShot
 # Huawei Backup
 com.huawei.KoBackup
 
-
 # HwChrService
 com.huawei.android.chr
 
 # Huawei Services Framework
 com.huawei.android.hsf
 
-# Huawei Launcher (Install a launcher before deleteing it)
+# Huawei Launcher (Install a launcher before deleting it)
 com.huawei.android.launcher
 
 # Theme Manager

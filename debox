@@ -20,7 +20,6 @@ delete_apps() {
 	  exit 127
 	else
 	  printf '%b\n' "\e[1;31m[x] \e[0mCouldn't delete \e[1m$app."
-	  exit 1
 	fi 
   done
 }
