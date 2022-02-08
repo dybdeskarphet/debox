@@ -45,7 +45,7 @@ For Fedora-based distros (Fedora?) Run:
 # app-list.txt
 I made this list by a little bit of research for every package that mentioned in these forum posts:
 - [\[GUIDE\] List of bloatware on EMUI safe to remove \(XDA Developers\)](https://forum.xda-developers.com/t/guide-list-of-bloatware-on-emui-safe-to-remove.3700814/)<sup>[backup](https://web.archive.org/web/20211103201324/https://forum.xda-developers.com/t/guide-list-of-bloatware-on-emui-safe-to-remove.3700814/)</sup>
-- [\[GUIDE\] \[SPREADSHEET\] Remove System Apps Through ADB](https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/)<sup>[backup](https://web.archive.org/web/20210101105623/https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/)
+- [\[GUIDE\] \[SPREADSHEET\] Remove System Apps Through ADB (Comment #125)](https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/page-7#post-80057141)<sup>[backup](https://web.archive.org/web/20210101105617/https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/page-7)
 
 But also eliminated some programs from their list because some of the programs there were important (or can be important) for system services. Also, lines starting with `#` are comments. (wow, really?)
 
@@ -127,7 +127,7 @@ Fedora temelli dağıtımlar için (Fedora?) bu komutu çalıştırın:
 # app-list.txt nedir?
 Depoyu kopyaladığınızda görebileceğiniz basit bir liste. Listeyi aşağıda verilen forum gönderilerinde bahsedilen uygulamaları işlevlerine göre ayrıştırarak oluşturdum.
 - [\[GUIDE\] List of bloatware on EMUI safe to remove \(XDA Developers\)](https://forum.xda-developers.com/t/guide-list-of-bloatware-on-emui-safe-to-remove.3700814/)<sup>[backup](https://web.archive.org/web/20211103201324/https://forum.xda-developers.com/t/guide-list-of-bloatware-on-emui-safe-to-remove.3700814/)</sup>
-- [\[GUIDE\] \[SPREADSHEET\] Remove System Apps Through ADB](https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/)<sup>[backup](https://web.archive.org/web/20210101105623/https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/)
+- [\[GUIDE\] \[SPREADSHEET\] Remove System Apps Through ADB (Comment #125)](https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/page-7#post-80057141)<sup>[backup](https://web.archive.org/web/20210101105617/https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/page-7)
 
 Ancak konularda bahsedilen bazı uygulamalar da eledim çünkü bazıları sistem servisleri için gerekli olabilecek uygulamalardı. Ek olarak `#` ile başlayan satırlar yorum satırları. (harbi mi?)
 
