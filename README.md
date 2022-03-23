@@ -1,6 +1,5 @@
 
 <p align="center">
-![debox-logo](https://user-images.githubusercontent.com/42360077/159761230-3a930042-1b9c-4238-9f95-79eadcd76ea4.png)
   <img src="banner.png" alt="Debox">
 </p>
 
