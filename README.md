@@ -1,6 +1,5 @@
 # Table of Contents
 <!--ts-->
-   * [Usage](#usage)
    * [Dependencies](#dependencies)
    * [app-list.txt](#app-listtxt)
    * [Issues](#issues)
@@ -8,6 +7,8 @@
    * [Which apps are getting deleted?](https://github.com/debox/blob/main/app-list.txt)
    * [Türkçe](#konu-ba%C5%9Fl%C4%B1klar%C4%B1)
 <!--te-->
+
+# Debox
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/dybdeskarphet/debox) ![GitHub](https://img.shields.io/github/license/dybdeskarphet/debox) ![GitHub last commit](https://img.shields.io/github/last-commit/dybdeskarphet/debox)
 
@@ -49,6 +50,7 @@ But also eliminated some programs from their list because some of the programs t
    * [Hangi uygulamalar siliniyor?](https://github.com/debox/blob/main/app-list.txt)
 <!--te-->
 
+# Debox Nedir?
 Debox __gereksiz uygulamaları__ ve bazı sistem uygulamalarını silme ve __genel sistem temizliği__ için yazılmış, root'lu ve root'suz Huawei Y6 2019larda çalışabilen ekstrem bir bash betiğidir. Betik aynı zamanda diğer cihazlarda da [app-list.txt](#app-listtxt-nedir)'yi değiştirerek kullanılabilir.
 
 # Bağlılıklar
