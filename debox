@@ -123,16 +123,16 @@ cleanup_delete_cache() {
 print_usage() {
   printf '\n%b\n' "\e[1;32mDEBOX \e[39musage:\e[0m"
   printf '\n%b\n' "\e[1mSETUP COMMANDS\e[0m"
-  printf '%b\n' "  debox {-a --automatic}                  user specific command, edit the script file"
-  printf '%b\n' "  debox {-d --fdroid}                     install f-droid (with wget)"
-  printf '%b\n' "  debox {-f --delete-apps}                delete the apps listed in app-list.txt"
+  printf '%b\n' "  ./debox {-a --automatic}                  user specific command, edit the script file"
+  printf '%b\n' "  ./debox {-d --fdroid}                     install f-droid (with wget)"
+  printf '%b\n' "  ./debox {-f --delete-apps}                delete the apps listed in app-list.txt"
   printf '\n%b\n' "\e[1mGENERAL COMMANDS\e[0m"
-  printf '%b\n' "  debox {-s --strart} [com.package.name]  start a package"
-  printf '%b\n' "  debox {-i --input} [text]               send a text input to the connected device"
-  printf '%b\n' "  debox {-h --help}                       print this message"
+  printf '%b\n' "  ./debox {-s --strart} [com.package.name]  start a package"
+  printf '%b\n' "  ./debox {-i --input} [text]               send a text input to the connected device"
+  printf '%b\n' "  ./debox {-h --help}                       print this message"
   printf '\n%b\n' "\e[1mCLEANUP COMMANDS\e[0m"
-  printf '%b\n' "  debox {-e --delete-empty-dirs}          delete empty directories from your internal and external storage"
-  printf '%b\n\n' "  debox {-c --delete-cache}               delete caches of your all apps"
+  printf '%b\n' "  ./debox {-e --delete-empty-dirs}          delete empty directories from your internal and external storage"
+  printf '%b\n\n' "  ./debox {-c --delete-cache}               delete caches of your all apps"
 }
 
 
