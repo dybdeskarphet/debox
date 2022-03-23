@@ -19,7 +19,7 @@ Debox is an extreme __debloating__\* and __cleaning__ script for your __unrooted
    * [app-list.txt](#app-listtxt)
    * [Issues](#issues)
    * [What should I install after this?](#what-should-i-install-after-this)
-   * [Which apps are getting deleted?](https://github.com/debox/blob/main/app-list.txt)
+   * [Which apps are getting deleted?](https://github.com/dybdeskarphet/debox/blob/main/app-list.txt)
    * [Türkçe](#konu-ba%C5%9Fl%C4%B1klar%C4%B1)
 <!--te-->
 
@@ -54,7 +54,7 @@ But also eliminated some programs from their list because some of the programs t
    * [app-list.txt](#app-listtxt-nedir)
    * [Sorunlar](#sorunlar)
    * [Sonrasında neleri indirmeliyim?](#sonras%C4%B1nda-neleri-%C4%B0ndirmeliyim)
-   * [Hangi uygulamalar siliniyor?](https://github.com/debox/blob/main/app-list.txt)
+   * [Hangi uygulamalar siliniyor?](https://github.com/dybdeskarphet/debox/blob/main/app-list.txt)
 <!--te-->
 
 # Debox Nedir?
