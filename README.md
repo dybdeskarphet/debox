@@ -53,7 +53,7 @@ But also eliminated some programs from their list because some of the programs t
    * [Bağlılıklar](#ba%C4%9Fl%C4%B1l%C4%B1klar)
    * [app-list.txt](#app-listtxt-nedir)
    * [Sorunlar](#sorunlar)
-   * [Sonrasında neleri indirmeliyim?](#sonras%C4%B1nda-neleri-%C4%B0ndirmeliyim)
+   * [Sonrasında neleri indirmeliyim?](#sonras%C4%B1nda-neleri-indirmeliyim)
    * [Hangi uygulamalar siliniyor?](https://github.com/dybdeskarphet/debox/blob/main/app-list.txt)
 <!--te-->
 
