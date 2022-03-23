@@ -1,3 +1,19 @@
+
+<p align="center">
+![debox-logo](https://user-images.githubusercontent.com/42360077/159761230-3a930042-1b9c-4238-9f95-79eadcd76ea4.png)
+  <img src="banner.png" alt="Debox">
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/tokei/lines/github/dybdeskarphet/debox">
+<a href="https://github.com/dybdeskarphet/debox/commits/main"><img src="https://img.shields.io/github/last-commit/dybdeskarphet/debox"></a>
+<a href="https://github.com/dybdeskarphet/debox/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dybdeskarphet/debox"></a>
+</p>
+
+Debox is an extreme __debloating__\* and __cleaning__ script for your __unrooted/rooted__ Huawei Y6 2019 phone. It can also be used on other devices just by changing the [app-list.txt](#app-listtxt).
+
+\*: Not that all the apps in _app-list.txt_ are bloat, I just use it as its popular usage in \*nix world.
+
 # Table of Contents
 <!--ts-->
    * [Dependencies](#dependencies)
@@ -7,14 +23,6 @@
    * [Which apps are getting deleted?](https://github.com/debox/blob/main/app-list.txt)
    * [Türkçe](#konu-ba%C5%9Fl%C4%B1klar%C4%B1)
 <!--te-->
-
-# Debox
-
-![Lines of code](https://img.shields.io/tokei/lines/github/dybdeskarphet/debox) ![GitHub](https://img.shields.io/github/license/dybdeskarphet/debox) ![GitHub last commit](https://img.shields.io/github/last-commit/dybdeskarphet/debox)
-
-Debox is an extreme __debloating__\* and __cleaning__ script for your __unrooted/rooted__ Huawei Y6 2019 phone. It can also be used on other devices just by changing the [app-list.txt](#app-listtxt).
-
-\*: Not that all the apps in _app-list.txt_ are bloat, I just use it as its popular usage in \*nix world.
 
 # Dependencies
 - bash 4+ 
