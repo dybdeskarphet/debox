@@ -11,6 +11,9 @@
    * [Türkçe](#konu-ba%C5%9Fl%C4%B1klar%C4%B1)
 <!--te-->
 
+![debox-logo](https://user-images.githubusercontent.com/42360077/159736555-22aad170-7939-49d8-a438-f8c35bb4ec31.png)
+
+
 # Debox
 ![screenshot](https://user-images.githubusercontent.com/42360077/141742797-cc913473-a9eb-42bf-a4f7-7ded45e226d3.png)
 Debox is an extreme debloating\* script for your __unrooted__ Huawei Y6 2019 phone. But you can still use it on your device by changing the app-list.txt
