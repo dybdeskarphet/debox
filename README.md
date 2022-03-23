@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/tokei/lines/github/dybdeskarphet/debox">
+<img src="https://img.shields.io/github/languages/code-size/dybdeskarphet/debox">
 <a href="https://github.com/dybdeskarphet/debox/commits/main"><img src="https://img.shields.io/github/last-commit/dybdeskarphet/debox"></a>
 <a href="https://github.com/dybdeskarphet/debox/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dybdeskarphet/debox"></a>
 </p>
