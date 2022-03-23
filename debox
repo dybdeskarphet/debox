@@ -143,6 +143,7 @@ case $first_input in
   -s | --start) general_start_app ;;
   -i | --input) general_send_input ;;
   -e | --delete-empty-dirs) cleanup_empty_dirs ;;
+  -c | --delete-cache) cleanup_delete_cache ;;
   *) print_usage
      exit 1 ;;
 esac
