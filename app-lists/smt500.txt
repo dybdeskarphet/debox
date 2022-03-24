@@ -1,0 +1,248 @@
+# Youtube
+com.google.android.youtube
+
+# Edge screen
+com.samsung.android.app.cocktailbarservice
+
+# Smart Switch
+com.samsung.android.smartswitchassistant
+com.sec.android.easyMover.Agent
+
+# Bookmark provider
+com.android.bookmarkprovider
+
+# Bookmarks
+com.android.providers.partnerbookmarks
+
+# SIM app
+com.android.simappdialog
+
+# Samsung Push
+com.sec.spp.push
+
+# User Manual
+com.sec.android.widgetapp.webmanual
+
+# Photo Editor
+com.sec.android.mimage.photoretouching
+
+# Gallery
+com.sec.android.gallery3d
+
+# Weather
+com.sec.android.daemonapp
+
+# Clock
+com.sec.android.app.clockpackage
+
+# Setup Wizard
+com.sec.android.app.SecSetupWizard
+
+# Video Player
+com.samsung.android.video
+
+# Theme center
+com.samsung.android.themecenter
+
+# Sticker center
+com.samsung.android.stickercenter
+
+# BBC Agent
+com.samsung.android.bbc.bbcagent
+
+# Calendar
+com.samsung.android.calendar
+
+# Drive
+com.google.android.apps.docs
+
+# Safe to delete after setup
+com.google.android.apps.restore
+com.google.android.setupwizard
+
+# Duo
+com.google.android.apps.tachyon
+
+# Scloud
+com.samsung.android.scloud
+
+# Spyware (Customization service)
+com.samsung.android.rubin.app
+
+# Messaging
+com.samsung.android.messaging
+
+# Work profile
+com.samsung.android.knox.containercore
+com.samsung.android.knox.containeragent
+
+# Knox analytics Updater
+com.samsung.android.knox.analytics.uploader
+
+# Kids Home
+com.samsung.android.kidsinstaller
+
+# Honeyboard
+com.samsung.android.honeyboard
+
+# Game optimization
+com.samsung.android.game.gos
+com.samsung.android.game.gamehome
+
+# Find my mobile
+com.samsung.android.fmm
+
+# Nearby device scanning
+com.samsung.android.easysetup
+
+# Smart Things
+com.samsung.android.beaconmanager
+
+# QuickShare
+com.samsung.android.aware.service
+
+# Seperated app
+com.samsung.android.appseparation
+
+# Wearable Manager Installer
+com.samsung.android.app.watchmanagerstub
+
+# Tasks Edge
+com.samsung.android.app.taskedge
+
+# Bixby
+com.samsung.android.app.settings.bixby
+
+# Apps edge
+com.samsung.android.app.appsedge
+
+# Nearby Service
+com.samsung.android.allshare.service.mediashare
+
+# Sign in
+com.osp.app.signin
+
+# Netflix
+com.netflix.mediaclient
+com.netflix.partner.activation
+
+# Drive
+com.microsoft.skydrive
+
+# Printer reccommend
+com.google.android.printservice.recommendation
+
+# Google Partner
+com.google.android.partnersetup
+
+# One time initializer
+com.google.android.onetimeinitializer
+
+# Setup Wizard related
+com.sec.android.app.setupwizardlegalprovider
+
+# Galaxy Store
+com.sec.android.app.samsungapps
+
+# Galaxy Store Purchase
+com.sec.android.app.billing
+
+# Quickshare
+com.samsung.android.app.sharelive
+
+# Edge bar
+com.sec.android.app.quicktool
+
+# Video Trimmer
+com.samsung.app.newtrim
+
+############
+# OPTIONAL #
+############
+
+# Chrome
+# com.android.chrome
+# com.sec.android.app.chromecustomizations
+
+# Finder
+# com.samsung.android.app.galaxyfinder
+
+# My files
+# com.sec.android.app.myfiles
+
+# Camera
+# com.sec.android.app.camera
+# com.sec.android.app.camera.sticker
+
+# Wallpapers
+# com.samsung.android.app.dressroom
+
+# Contacts
+# com.samsung.android.app.contacts
+
+# Clipboard 
+# com.samsung.android.app.clipboardedge
+# com.samsung.clipboardsaveservice
+
+# Play Store
+# com.android.vending
+
+# Google App
+# com.google.android.googlequicksearchbox
+
+# Google Location History
+# com.google.android.gms.location.history
+
+# Gmail
+# com.google.android.gm
+
+# Device care (main app)
+# com.samsung.android.lool
+
+# Group Sharing
+# com.samsung.android.mobileservice
+
+# One UI Home
+# com.sec.android.app.launcher
+
+# Maps
+# com.google.android.apps.maps
+
+# Printer related
+# com.android.bips
+# com.android.printspooler
+
+# Preload Installer (a quora person says it reinstalls the bloatware that you deleted)
+# com.sec.android.preloadinstaller
+
+# Samsung Software Update
+# com.wssyncmldm
+
+# Dynamic System Updates
+# com.android.dynsystem
+
+# OTA Updates
+# com.sec.android.soagent
+
+# Configuration Update
+# com.samsung.android.app.omcagent
+
+# encyrption, managed profiles and other things
+# com.android.managedprovisioning
+
+# Egg
+# com.android.egg
+
+# HTML Viewer
+# com.android.htmlviewer
+
+# Wallpaper related
+# com.android.dreams.basic
+# com.android.dreams.phototable
+# com.android.wallpaper.livepicker
+# com.android.wallpaperbackup
+# com.samsung.android.wallpaper.res
+# com.android.wallpapercropper
+
+# Backup confirm
+# com.android.backupconfirm

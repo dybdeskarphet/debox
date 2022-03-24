@@ -1,7 +1,6 @@
 #!/bin/bash
 
 declare -a AppsArray
-mapfile -t AppsArray < <(sed '/^$/d; /^#/d' ./app-list.txt)
 
 sh="adb shell"
 fdroid_link="https://f-droid.org/F-Droid.apk"
@@ -11,24 +10,31 @@ second_input="$2"
 external_storage="$($sh find /storage -maxdepth 1 -name '*-*')"
 internal_storage="/storage/emulated/0"
 
-check_dependencies() {
+check_requirements() {
+    if test -f ./app-list.txt; then
+	mapfile -t AppsArray < <(sed '/^$/d; /^#/d' ./app-list.txt)
+    else
+	msg_applist="\e[1;31m[!] \e[0mMove your desired app list to this current directory and change its name to 'app-list.txt'. You can find the app-list.txt files from Debox's GitHub repo."
+        string_requirements+="$msg_applist\n"
+    fi
+
     if [[ "$(command -v adb)" = "" ]]; then
-        msg_dep_adb="\e[1;31m[?] \e[39mAndroid platform tools are not installed on your system."
-        string_dependencies+="$msg_dep_adb\n"
+        msg_dep_adb="\e[1;31m[?] \e[0mAndroid platform tools are not installed on your system."
+        string_requirements+="$msg_dep_adb\n"
     fi
     
     if [[ "$(command -v wget)" = "" ]]; then
-        msg_dep_wget="\e[1;31m[?] \e[39mWget is not installed on your system."
-        string_dependencies+="$msg_dep_wget\n"
+        msg_dep_wget="\e[1;31m[?] \e[0mWget is not installed on your system."
+        string_requirements+="$msg_dep_wget\n"
     fi
     
     if [[ "$(command -v sed)" = "" ]]; then
-        msg_dep_sed="\e[1;31m[?] \e[39mSed is not installed on your system."
-        string_dependencies+="$msg_dep_sed\n"
+        msg_dep_sed="\e[1;31m[?] \e[0mSed is not installed on your system."
+        string_requirements+="$msg_dep_sed\n"
     fi
-    
-    if [[ ! "$string_dependencies" = "" ]]; then
-        printf '\n%b\n' "$string_dependencies"
+
+    if [[ ! "$string_requirements" = "" ]]; then
+        printf '\n%b\n' "$string_requirements"
         exit 127
     fi
 }
@@ -54,17 +60,17 @@ setup_install_fdroid() {
     if wget -O - $fdroid_link > ./fdroid.apk; then
       :
     else
-      printf '%b\n\n' "\e[1;31m[x] \e[39mCouldn't download the F-Droid APK."
+      printf '%b\n\n' "\e[1;31m[x] \e[0mCouldn't download the F-Droid APK."
       exit 1
     fi
   fi
 
-  printf '\n%b\n' "\e[1;33m[*] \e[39mInstalling F-Droid..."
+  printf '\n%b\n' "\e[1;33m[*] \e[0mInstalling F-Droid..."
 
   if adb install ./fdroid.apk > /dev/null 2>&1; then
-    printf '%b\n\n' "\e[1;32m[+] \e[39mInstalled F-Droid successfully."
+    printf '%b\n\n' "\e[1;32m[+] \e[0mInstalled F-Droid successfully."
   else
-    printf '%b\n\n' "\e[1;31m[x] \e[39mCouldn't install F-Droid."
+    printf '%b\n\n' "\e[1;31m[x] \e[0mCouldn't install F-Droid."
     exit 1
   fi
 }
@@ -73,49 +79,49 @@ setup_install_fdroid() {
 
 general_start_app() {
   if [[ "$second_input" = "" ]]; then
-    printf '\n%b\n\n' "\e[1;31m[!] \e[39mNo input has given."
+    printf '\n%b\n\n' "\e[1;31m[!] \e[0mNo input has given."
     printf '%b\n' "\e[0mTry these:"
-    printf '%b\n' "\e[1m./debox -s com.android.vending\e[0m (starts play store)"
-    printf '%b\n\n' "\e[1m./debox -s org.fdroid.fdroid\e[0m (starts f-droid)"
+    printf '%b\n' "\e[1mdebox -s com.android.vending\e[0m (starts play store)"
+    printf '%b\n\n' "\e[1mdebox -s org.fdroid.fdroid\e[0m (starts f-droid)"
     exit 1
   elif $sh monkey -p "$second_input" -v 1
   then
     :
   else 
-    printf '%b\n\n' "\e[1;31m[x] \e[39mCouldn't start the app."
+    printf '%b\n\n' "\e[1;31m[x] \e[0mCouldn't start the app."
     exit 1
   fi
 }
 
 
 general_send_input() {
-  printf '\n%b\n' "\e[1;33m[*] \e[39mSending input to connected device."
+  printf '\n%b\n' "\e[1;33m[*] \e[0mSending input to connected device."
 
   if [[ "$second_input" = "" ]]; then
-    printf '%b\n\n' "\e[1;31m[!] \e[39mNo input has given."
+    printf '%b\n\n' "\e[1;31m[!] \e[0mNo input has given."
   elif $sh input text "$second_input"
   then
-    printf '%b\n\n' "\e[1;32m[+] \e[39mDone."
+    printf '%b\n\n' "\e[1;32m[+] \e[0mDone."
   else
-    printf '%b\n\n' "\e[1;31m[x] \e[39mCouldn't send an input."
+    printf '%b\n\n' "\e[1;31m[x] \e[0mCouldn't send an input."
     exit 1
   fi
 }
 
 cleanup_empty_dirs() {
   for i in `seq 10`; do $sh find "$internal_storage" -type d -print -exec rmdir {} + 2>/dev/null ; done
-  printf '%b\n\n' "\e[1;32m[+] \e[39mDeleted empty directories in internal storage."
+  printf '\n%b\n' "\e[1;32m[+] \e[0mDeleted empty directories in internal storage."
 
   for i in `seq 10`; do $sh find "$external_storage" -type d -print -exec rmdir {} + 2>/dev/null ; done
-  printf '%b\n\n' "\e[1;32m[+] \e[39mDeleted empty directories in external storage."
+  printf '%b\n\n' "\e[1;32m[+] \e[0mDeleted empty directories in external storage."
 }
 
 cleanup_delete_cache() {
   if $sh pm trim-caches 999G
   then
-    printf '%b\n\n' "\e[1;32m[+] \e[39mDeleted all the cache."
+    printf '%b\n\n' "\e[1;32m[+] \e[0mDeleted all the cache."
   else
-    printf '%b\n\n' "\e[1;31m[x] \e[39mCouldn't delete the cache."
+    printf '%b\n\n' "\e[1;31m[x] \e[0mCouldn't delete the cache."
     exit 1
   fi
 }
@@ -123,18 +129,19 @@ cleanup_delete_cache() {
 print_usage() {
   printf '\n%b\n' "\e[1;32mDEBOX \e[39musage:\e[0m"
   printf '\n%b\n' "\e[1mSETUP COMMANDS\e[0m"
-  printf '%b\n' "  ./debox {-a --automatic}                  user specific command, edit the script file"
-  printf '%b\n' "  ./debox {-d --fdroid}                     install f-droid (with wget)"
-  printf '%b\n' "  ./debox {-f --delete-apps}                delete the apps listed in app-list.txt"
+  printf '%b\n' "  debox {-a --automatic}                  user specific command, edit the script file"
+  printf '%b\n' "  debox {-d --fdroid}                     install f-droid (with wget)"
+  printf '%b\n' "  debox {-f --delete-apps}                delete the apps listed in app-list.txt"
   printf '\n%b\n' "\e[1mGENERAL COMMANDS\e[0m"
-  printf '%b\n' "  ./debox {-s --strart} [com.package.name]  start a package"
-  printf '%b\n' "  ./debox {-i --input} [text]               send a text input to the connected device"
-  printf '%b\n' "  ./debox {-h --help}                       print this message"
+  printf '%b\n' "  debox {-s --strart} [com.package.name]  start a package"
+  printf '%b\n' "  debox {-i --input} [text]               send a text input to the connected device"
+  printf '%b\n' "  debox {-h --help}                       print this message"
   printf '\n%b\n' "\e[1mCLEANUP COMMANDS\e[0m"
-  printf '%b\n' "  ./debox {-e --delete-empty-dirs}          delete empty directories from your internal and external storage"
-  printf '%b\n\n' "  ./debox {-c --delete-cache}               delete caches of your all apps"
+  printf '%b\n' "  debox {-e --delete-empty-dirs}          delete empty directories from your internal and external storage"
+  printf '%b\n\n' "  debox {-c --delete-cache}               delete caches of your all apps"
 }
 
+check_requirements
 
 case $first_input in
   -a | --automatic) setup_delete_apps && setup_install_fdroid ;;

@@ -9,7 +9,7 @@
 <a href="https://github.com/dybdeskarphet/debox/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dybdeskarphet/debox"></a>
 </p>
 
-Debox is an extreme __debloating__\* and __cleaning__ script for your __unrooted/rooted__ Huawei Y6 2019 phone. It can also be used on other devices just by changing the [app-list.txt](#app-listtxt).
+Debox is an extreme __debloating__\* and __cleaning__ script for your __unrooted/rooted__ devices (check [app-lists](https://github.com/dybdeskarphet/debox/tree/main/app-lists). It can also be used on other devices just by changing the [app-list.txt](#app-listtxt).
 
 \*: Not that all the apps in _app-list.txt_ are bloat, I just use it as its popular usage in \*nix world.
 
@@ -58,7 +58,7 @@ But also eliminated some programs from their list because some of the programs t
 <!--te-->
 
 # Debox Nedir?
-Debox __gereksiz uygulamaları__ ve bazı sistem uygulamalarını silme ve __genel sistem temizliği__ için yazılmış, root'lu ve root'suz Huawei Y6 2019larda çalışabilen ekstrem bir bash betiğidir. Betik aynı zamanda diğer cihazlarda da [app-list.txt](#app-listtxt-nedir)'yi değiştirerek kullanılabilir.
+Debox __gereksiz uygulamaları__ ve bazı sistem uygulamalarını silme ve __genel sistem temizliği__ için yazılmış, root'lu ve root'suz cihazlarda ([app-lists](https://github.com/dybdeskarphet/debox/tree/main/app-lists) klasörüne göz atın) çalışabilen ekstrem bir bash betiğidir. Betik aynı zamanda diğer cihazlarda da [app-list.txt](#app-listtxt-nedir)'yi değiştirerek kullanılabilir.
 
 # Bağlılıklar
 - bash 4+ 
