@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="banner.png" alt="Debox">
 </p>
@@ -9,7 +8,9 @@
 <a href="https://github.com/dybdeskarphet/debox/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dybdeskarphet/debox"></a>
 </p>
 
-Debox is an extreme __debloating__\* and __cleaning__ script for your __unrooted/rooted__ devices (check [app-lists](https://github.com/dybdeskarphet/debox/tree/main/app-lists)). 
+<p align="center">
+Debox is an extreme <b>debloating</b>\* and <b>cleaning</b> script for your <b>unrooted/rooted</b> devices (check <a href="https://github.com/dybdeskarphet/debox/tree/main/app-lists">app lists folder</a>)
+</p>
 
 # Table of Contents
 <!--ts-->
