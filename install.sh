@@ -1,6 +1,6 @@
 #!/bin/bash
 if ! $(sudo -l &>/dev/null); then
-    echo 'error: root privileges are needed to install Debox'
+    echo 'error: root privileges are needed for installing Debox'
     exit 87
 fi
 
