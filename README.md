@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-Debox is an extreme <b>debloating</b>* and <b>cleaning</b> script for your <b>unrooted/rooted</b> devices (check <a href="https://github.com/dybdeskarphet/debox/tree/main/app-lists">app lists folder</a>)
+Debox is an extreme <b>debloating</b> and <b>cleaning</b> script for your <b>unrooted/rooted</b> devices (check <a href="https://github.com/dybdeskarphet/debox/tree/main/app-lists">app lists folder</a>)
 </p>
 
 # Table of Contents
