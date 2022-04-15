@@ -24,7 +24,7 @@ Debox is an extreme <b>debloating</b> and <b>cleaning</b> script for your <b>unr
 
 # Dependencies
 - bash 4+ 
-  - Script uses `mapfile` command so that's why your bash version has to be greater than 4. Check your version with `bash --version`.
+  - Script uses `mapfile` command and that's why your bash version has to be greater than 4. Check your version with `bash --version`.
 - wget
   - For installing F-Droid
 - adb [android-tools]
