@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+<a href="https://github.com/dybdeskarphet/debox/blob/main/README_tr.md">🇹🇷 Türkçe</a> <b>/</b> <a href="https://github.com/dybdeskarphet/debox/blob/main/README.md">🇬🇧 English</a>
+</p>
+
+<p align="center">
 Debox is an extreme <b>debloating</b> and <b>cleaning</b> script for your <b>unrooted/rooted</b> devices (check <a href="https://github.com/dybdeskarphet/debox/tree/main/app-lists">app lists folder</a>)
 </p>
 
@@ -19,7 +23,6 @@ Debox is an extreme <b>debloating</b> and <b>cleaning</b> script for your <b>unr
    * [Issues](#issues)
    * [What should I install after this?](#what-should-i-install-after-this)
    * [Which apps are getting deleted?](https://github.com/dybdeskarphet/debox/blob/main/app-list.txt)
-   * [Türkçe](#konu-ba%C5%9Fl%C4%B1klar%C4%B1)
 <!--te-->
 
 # Dependencies
@@ -41,42 +44,5 @@ But also eliminated some programs from their list because some of the programs t
 - Ringtone picker doesn't work :/
 
 # What should I install after this?
-- [Awesome Privacy](https://github.com/pluja/awesome-privacy)
-- [Alternatives to Bloatware](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
-
----
-
-# Konu Başlıkları
-<!--ts-->
-   * [Debox Nedir?](#debox-nedir)
-   * [Bağlılıklar](#ba%C4%9Fl%C4%B1l%C4%B1klar)
-   * [app-list.txt](#app-listtxt-nedir)
-   * [Sorunlar](#sorunlar)
-   * [Sonrasında neleri indirmeliyim?](#sonras%C4%B1nda-neleri-indirmeliyim)
-   * [Hangi uygulamalar siliniyor?](https://github.com/dybdeskarphet/debox/blob/main/app-list.txt)
-<!--te-->
-
-# Debox Nedir?
-Debox __gereksiz uygulamaları__ ve bazı sistem uygulamalarını silme ve __genel sistem temizliği__ için yazılmış, root'lu ve root'suz cihazlarda ([app-lists](https://github.com/dybdeskarphet/debox/tree/main/app-lists) klasörüne göz atın) çalışabilen ekstrem bir bash betiğidir.
-
-# Bağlılıklar
-- bash 4+ 
-  - Betik `mapfile` komutu kullandığından dolayı bash sürümünüzün 4'ten yüksek olması gerekir. `bash --version` komutu ile sürümünüzü kontrol edebilirsiniz.
-- wget
-  - F-Droid'i indirebilmek için 
-- adb [android-tools]
-  - Uygulamaları silmek ve bazı gerekli komutları çalıştırmak için gerekli olan en temel araç.
-
-# app-list.txt nedir?
-Depoyu indirdiğinizde inceleyebileceğiniz basit bir liste. Listeyi aşağıda verilen forum gönderilerinde bahsedilen uygulamaları işlevlerine göre ayrıştırarak oluşturdum.
-- [\[GUIDE\] List of bloatware on EMUI safe to remove \(XDA Developers\)](https://forum.xda-developers.com/t/guide-list-of-bloatware-on-emui-safe-to-remove.3700814/)<sup>[backup](https://web.archive.org/web/20211103201324/https://forum.xda-developers.com/t/guide-list-of-bloatware-on-emui-safe-to-remove.3700814/)</sup>
-- [\[GUIDE\] \[SPREADSHEET\] Remove System Apps Through ADB (Comment #125)](https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/page-7#post-80057141)<sup>[backup](https://web.archive.org/web/20210101105617/https://forum.xda-developers.com/t/guide-spreadsheet-remove-system-apps-through-adb.3870727/page-7)
-
-Ancak konularda bahsedilen bazı uygulamalar da eledim çünkü bazıları sistem servisleri için gerekli olabilecek uygulamalardı. Ek olarak `#` ile başlayan satırlar yorum satırları. Eğer projeye kendi telefonunuzun _app-list.txt_'si ile katkıda bulunmak istiyorsanız, ["issue" oluşturmaktan](https://github.com/dybdeskarphet/debox/issues/new) çekinmeyin.
-
-# Sorunlar
-- Zil sesi seçim menüsü çalışmıyor :/
-
-# Sonrasında neleri indirmeliyim?
 - [Awesome Privacy](https://github.com/pluja/awesome-privacy)
 - [Alternatives to Bloatware](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
