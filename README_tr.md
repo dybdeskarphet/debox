@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-Debox <b>gereksiz uygulamaları</b>, bazı sistem uygulamalarını silme ve <b>genel sistem temizliği</b> için yazılmış, root'lu ve root'suz cihazlarda (<a href="https://github.com/dybdeskarphet/debox/tree/main/app-lists">app-lists klasörüne göz atın</a>) çalışabilen ekstrem bir bash betiğidir.
+Debox <b>gereksiz uygulamaları</b>, bazı sistem uygulamalarını silme ve <b>genel sistem temizliği</b> için yazılmış, kök iznine (root) ihtiyaç duymadan (<a href="https://github.com/dybdeskarphet/debox/tree/main/app-lists">app-lists klasörüne göz atın</a>) çalışabilen ekstrem bir bash betiğidir.
 </p>
 
 # Konu Başlıkları
