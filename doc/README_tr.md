@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="doc/banner.png" alt="Debox">
+  <img src="banner.png" alt="Debox">
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/dybdeskarphet/debox/blob/main/README_tr.md">🇹🇷 Türkçe</a> <b>/</b> <a href="https://github.com/dybdeskarphet/debox/blob/main/README.md">🇬🇧 English</a>
+<a href="https://github.com/dybdeskarphet/debox/blob/main/doc/README_tr.md">🇹🇷 Türkçe</a> <b>/</b> <a href="https://github.com/dybdeskarphet/debox/blob/main/README.md">🇬🇧 English</a>
 </p>
 
 <p align="center">
