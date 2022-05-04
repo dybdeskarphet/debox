@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Debox">
+  <img src="doc/banner.png" alt="Debox">
 </p>
 
 <p align="center">
